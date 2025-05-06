@@ -1,0 +1,477 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #f4f4f4;
+}
+.body_noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    padding: 0;
+    color: #3f3f3f;
+}
+header{
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+}
+.wrapper_header {
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.wrapper_header .header_menu_burguer{
+    display: none;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_logo img {
+    height: 40px;
+}
+
+.header_logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+}
+
+.header_logo small {
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_nav ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+.header_nav .social_icon {
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.header_nav select {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.header_noticia{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: #afafaf 1px solid;
+}
+
+.header_noticia span{
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+}
+.header_noticia p>span , .header_noticia p{
+    font-size: 14px;
+}
+
+.redes_sociales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    list-style: none;
+}
+
+.redes_body{
+    width: 100%;
+    min-width: 100px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.redes_sociales a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    background-color: rgb(168, 168, 168);
+}
+
+.wrapper_main h1{
+    font-weight: 100;
+    color: #333;
+    margin:0; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    padding:20px 0;
+    text-align: center;
+}
+
+.wrapper_main h2 {
+    font-weight: 50;
+    text-align: center;
+    color: #333;
+    margin:0; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+#img_wrapper> img{
+    width: 100%;
+}
+
+#img_wrapper>div{
+    background-color: rgba(3,3,3,0.3);
+    padding:2vh 2vw;
+    position: relative;
+    bottom:80px;
+}
+
+#img_wrapper>div span{
+    font-weight:100;
+    font-size: 18px;
+    color: #f4f4f4;
+}
+.wrapper_main{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper_section{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.wrapper_section>article h3{
+    margin:30px 0 ;
+}
+
+.wrapper_section>.article_noticia{
+    max-width: 980px;
+    width: 86%;
+}
+.article_noticia>img{
+    width: 100%;
+
+}
+
+.p_article{
+    font-weight: 50;
+    margin: 20px 0;
+}
+.wrapper_form {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.wrapper_form> h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+form > div label {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+form > div input, form > div textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+form > div input:focus, form > div textarea:focus {
+    outline: none;
+    border-color: #ff6600;
+    background-color: #fff;
+}
+
+form button{
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+footer{
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+
+/* ------------------ Medias -------------------- */
+
+@media only screen and (max-width: 1023px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .body_noticia, form {
+        width: 85%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff; 
+        border-bottom: 2px solid #ddd;
+    }
+    .wrapper_header .header_menu_burguer{
+        display:inline ;
+        border: 1px solid #ddd;
+        width: auto;
+        height: auto;
+    }
+    .wrapper_header{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .header_logo img {
+        width: 50%;
+    }
+    .wrapper_header select, .wrapper_header .header_menu {
+        display: none;
+    }
+    
+    
+    .sub-header h1 {
+        font-weight: 100;
+        color: #333;
+        margin: 0;
+        padding-bottom: 20px;
+        text-align: left; 
+        font-size: 48px;
+    }
+    .sub-header h2 {
+        font-weight: 50;
+        color: #333;
+        margin: 0;
+        padding-bottom: 50px;
+        text-align: left; 
+        font-size: 20px;
+    }
+    .header_noticia span{
+        font-size: 24px;
+        width: auto;
+        font-weight: bold;
+        color: #333;
+    }
+    .header_noticia p>span , .header_noticia p{
+        font-size: 10px;
+    }
+    
+    .wrapper_main {
+        margin-top: 80px; 
+        max-width:700px ;
+    }
+
+    #img_wrapper > img {
+        width: 100%;
+    }
+    .wrapper_section, .wrapper_section > .article_noticia {
+        flex-direction: column;
+        width: 100%;
+    }
+    .redes_sociales {
+        display: none;
+    }
+    .redes_sub-header{
+        display: flex;
+    }
+
+    form {
+        width: 400px;
+        margin:25px 0; ;
+    }
+
+    
+}
+
+@media only screen and (max-width: 760px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    .wrapper_header{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .header_noticia {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        border: none;
+    }
+
+    .header_noticia > span {
+        font-size: 32px;
+        width: 100%;
+        border-bottom: gray 1px solid;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+   
+    
+   
+    
+
+    .wrapper_main {
+        margin-top: 80px; 
+        max-width:400px ;
+    }
+
+    #img_wrapper > img {
+        width: 100%;
+    }
+    #img_wrapper > div {
+        background-color: rgb(249, 157, 52);
+        padding: 2vh 2vw;
+        position: relative;
+        bottom: 80px;
+    }
+    
+    .redes_sociales {
+        display: none;
+    }
+    .redes_body {
+        display: flex;
+        padding: 10px;
+        margin: 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background-color: rgba(78, 78, 78, 1);
+        z-index: 1000;
+    }
+    footer {
+        margin-bottom: 60px;
+    }
+    .wrapper_form > h2 {
+        text-align: center;
+        font-size: 30px;
+    }
+    form div{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    form button{
+        padding: auto;
+        margin:10px 0
+    }
+    
+}
